@@ -1,0 +1,27 @@
+{
+    "name": "derekbrottlund/insmed-connector",
+    "type": "project",
+    "require": {
+        "phpseclib/phpseclib": "^3.0",
+        "league/csv": "^9.16",
+        "cloudconvert/cloudconvert-php": "^3.4",
+        "guzzlehttp/guzzle": "^7.8",
+        "afragen/github-updater": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Derekbrottlund\\InsmedConnector\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Derek Brottlund",
+            "email": "derekbrottlund@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
